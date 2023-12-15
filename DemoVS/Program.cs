@@ -5,6 +5,6 @@ var app = builder.Build();
 
 app.UseMiddleware<LogTempoMiddleware>();
 
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/", () => "Hello World!"); // teste
 
 app.Run();
